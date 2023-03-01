@@ -1,0 +1,38 @@
+@charset "UTF8";
+
+@font-face {
+  font-family: digital-font;
+  src: url(../fonts/digital-7.ttf);
+}
+
+body {
+  background: #1F2129;
+}
+
+.clock {
+  width: 400px;
+  height: 100px;
+
+  background: #151618;
+  background: #30323B;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 38px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: #17D4FE;
+  font-family: digital-font;
+  font-size: 60px;
+
+  letter-spacing: 7px;
+
+  padding: 2rem 4rem;
+
+  box-shadow: inset 5px 5px 21px #131418, inset -5px -5px 21px #4D505E;
+}
